@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #000;
+}
+
+#taskList::-webkit-scrollbar{
+    display: none;
+}
+
+#date::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* white icon */
+  cursor: pointer;
+}
