@@ -3,7 +3,31 @@
 A modern **Employee Management System** built with **React + Vite** focusing heavily on frontend architecture, UI/UX, and state management. This project demonstrates how an admin can assign tasks to employees and how employees can track their task status — all without a backend, using **localStorage** as the data layer.
 
 ---
+### 🌐 Live Demo (GitHub Pages)
 
+Project ko GitHub Pages par successfully host kiya gaya hai 👇
+
+🔗 Live URL:
+👉 https://aditya-chauhan-dev.github.io/Employee-Management-System/
+
+🔐 Demo Login Credentials
+
+Project ko test karne ke liye niche demo credentials use karein:
+
+👨‍💼 Admin Login
+
+Email: admin@company.com
+
+Password: 123
+
+👩‍💻 Employee / User Login
+
+Email: rahul@company.com
+
+Password: 123
+
+⚠️ Note: Yeh credentials sirf demo/testing purpose ke liye hain.
+---
 ## 🚀 Live Features
 
 ### 🔐 Authentication (Frontend-based)
