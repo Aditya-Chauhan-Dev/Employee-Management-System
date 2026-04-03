@@ -6,7 +6,7 @@ import NewTask from './NewTask'
 
 function TaskList({data}) {
   return (
-    <div id='taskList' className='lg:h-70 h-50  w-full px-5 mt-10 flex items-center gap-3 overflow-auto pb-5'>
+    <div id='taskList' className='lg:h-70 h-50  w-full px-5 py-10 flex items-center gap-3 overflow-auto'>
         {data.tasks.map((e,idx)=>{
             if(e.active){
                 return <Active key={idx} data={e} />

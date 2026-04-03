@@ -5,7 +5,7 @@ function TaskDetails() {
   const authData=useContext(AuthContext)
   return (
     <div className='text-white mt-5 px-5 flex flex-col gap-3 pb-6'>
-      <div className='hidden md:grid grid-cols-5  bg-gray-600 items-center justify-betw px-7 py-3 rounded'>
+      <div className='hidden md:grid grid-cols-5  bg-[#1E293B] items-center justify-betw px-7 py-3 rounded'>
         <span className='text-lg'>Name</span>
         <span className='text-lg'>Tasks</span>
         <span className='text-lg'>Active</span>
